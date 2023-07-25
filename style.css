@@ -28,6 +28,13 @@
     font-size: 24px;
     opacity: 0.7;
   }
+
+  @media(max-width < 390){
+
+div .row img {
+    display:none;
+}
+  }
   
   div #info {
     background: var(--secondary-color);
